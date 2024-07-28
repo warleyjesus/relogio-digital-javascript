@@ -62,18 +62,13 @@ body {
     }
 
     .clock p {
-        font-size: 100px; /* Ajuste o tamanho da fonte para ser mais adequado em telas pequenas */
-        gap: 20px; /* Ajuste o espaço entre os números */
+        font-size: 40px; /* Ajuste o tamanho da fonte para ser mais adequado em telas pequenas */
+        gap: 10px; /* Ajuste o espaço entre os números */
     }
 
     .clock p:not(:last-child)::after {
-        font-size: 100px; /* Certifique-se de que o tamanho do separador é consistente com o texto */
+        font-size: 40px; /* Certifique-se de que o tamanho do separador é consistente com o texto */
         margin-left: 5px; /* Ajuste o espaço após o separador */
     }
 }
 
-@media (min-width: 501px) and (max-width: 768px) {
-    .clock p {
-        font-size: 100px; /* Ajuste para telas médias, se necessário */
-    }
-}
