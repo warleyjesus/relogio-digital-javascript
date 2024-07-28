@@ -51,3 +51,12 @@ body {
     margin-left: 10px; /* Use margin-left para espaçamento após o conteúdo */
     font-size: 150px; /* Certifique-se de que o tamanho é consistente com o texto */
 }
+
+@media (min-width:500px) {
+
+    .clock p {
+
+        font-size: 50px;
+    }
+    
+}
