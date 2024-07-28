@@ -15,9 +15,10 @@
 }
 
 body {
-    margin-top: -200px;
+    
     background-image: url("https://soubh.uai.com.br/uploads/post/image/13270/main_EAFO.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -56,9 +57,7 @@ body {
 
 /* Estilo para dispositivos móveis */
 @media (max-width: 500px) {
-    body{
-        margin-top: 0px;
-    }
+  
     .clock {
         flex-direction:row; /* Altere para coluna em telas pequenas */
         gap: 20px; /* Reduza o espaço entre os elementos */
