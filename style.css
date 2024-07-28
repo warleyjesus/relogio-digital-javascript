@@ -15,6 +15,7 @@
 }
 
 body {
+    margin-top: -200px;
     background-image: url("https://soubh.uai.com.br/uploads/post/image/13270/main_EAFO.jpg");
     background-repeat: no-repeat;
     background-size: cover;
