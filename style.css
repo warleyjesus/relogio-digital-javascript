@@ -32,9 +32,10 @@ body {
 .clock {
     display: flex;
     gap: 50px;
-    background-color: #00000075;
+    background-color: rgba(0, 0, 0, 0.75); /* Use rgba para mais controle */
     border-radius: 8px;
     padding: 10px; /* Adiciona um pouco de padding para o conteúdo não ficar colado na borda */
+    flex-direction: row;
 }
 
 .clock p {
@@ -52,11 +53,27 @@ body {
     font-size: 150px; /* Certifique-se de que o tamanho é consistente com o texto */
 }
 
-@media (min-width:500px) {
+/* Estilo para dispositivos móveis */
+@media (max-width: 500px) {
+    .clock {
+        flex-direction: column; /* Altere para coluna em telas pequenas */
+        gap: 20px; /* Reduza o espaço entre os elementos */
+        padding: 5px; /* Reduza o padding para se adequar melhor à tela pequena */
+    }
 
     .clock p {
-
-        font-size: 50px;
+        font-size: 100px; /* Ajuste o tamanho da fonte para ser mais adequado em telas pequenas */
+        gap: 20px; /* Ajuste o espaço entre os números */
     }
-    
+
+    .clock p:not(:last-child)::after {
+        font-size: 100px; /* Certifique-se de que o tamanho do separador é consistente com o texto */
+        margin-left: 5px; /* Ajuste o espaço após o separador */
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    .clock p {
+        font-size: 100px; /* Ajuste para telas médias, se necessário */
+    }
 }
