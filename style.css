@@ -9,7 +9,9 @@
 
 * {
     color: var(--color-white);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
     margin: 0;
     padding: 0;
 }
