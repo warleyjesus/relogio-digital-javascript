@@ -32,7 +32,7 @@ body {
 .clock {
     display: flex;
     gap: 50px;
-    background-color: rgba(0, 0, 0, 0.75); /* Use rgba para mais controle */
+    
     border-radius: 8px;
     padding: 10px; /* Adiciona um pouco de padding para o conteúdo não ficar colado na borda */
     flex-direction: row;
