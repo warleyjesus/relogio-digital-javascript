@@ -56,6 +56,9 @@ body {
 
 /* Estilo para dispositivos móveis */
 @media (max-width: 500px) {
+    body{
+        margin-top: 0px;
+    }
     .clock {
         flex-direction:row; /* Altere para coluna em telas pequenas */
         gap: 20px; /* Reduza o espaço entre os elementos */
