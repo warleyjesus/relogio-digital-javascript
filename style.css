@@ -69,6 +69,7 @@ body {
     .clock p {
         font-size: 40px; /* Ajuste o tamanho da fonte para ser mais adequado em telas pequenas */
         gap: 10px; /* Ajuste o espaço entre os números */
+        text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.8); /* Altere para rgba para mais controle */
     }
 
     .clock p:not(:last-child)::after {
