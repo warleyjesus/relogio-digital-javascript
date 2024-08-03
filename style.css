@@ -32,6 +32,9 @@ body {
     font-weight: 800;
     font-style: normal;
 }
+h2{
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8); /* Altere para rgba para mais controle */
+}
 
 .clock {
     display: flex;
