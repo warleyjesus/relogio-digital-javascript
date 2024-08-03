@@ -3,7 +3,9 @@ const minutesElement = document.getElementById('minutes')
 const secondsElement = document.getElementById('seconds')
 const back = [
     "https://www.ikebanaflores.com.br/blog/wp-content/uploads/2019/06/bairros-de-belo-horizonte-conheca-historias-e-por-que-visitar-cada-um.jpeg",
-   " https://soubh.uai.com.br/uploads/post/image/13270/main_EAFO.jpg"
+   " https://soubh.uai.com.br/uploads/post/image/13270/main_EAFO.jpg",
+   "https://caminhosmelevem.com/wp-content/uploads/2022/05/belo-horizonte-mg-edit-12.jpg"
+
 ]
 
 let currentIndex = 0;
